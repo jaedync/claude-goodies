@@ -1,0 +1,27 @@
+{
+  "name": "claude-goodies",
+  "owner": {
+    "name": "Jaedyn Chilton",
+    "url": "https://github.com/jaedync"
+  },
+  "metadata": {
+    "description": "Jaedyn's personal Claude Code plugins and skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "engram",
+      "source": "./plugins/engram",
+      "description": "Use Obsidian as Claude's long-term knowledge graph and memory system. Stores projects, decisions, knowledge, people, and session history as interconnected notes with wikilinks and tags.",
+      "category": "productivity",
+      "tags": ["obsidian", "memory", "knowledge-graph", "notes"]
+    },
+    {
+      "name": "caldera-mcp",
+      "source": "./plugins/caldera-mcp",
+      "description": "Domain skills for Ignition SCADA development via Caldera MCP. Workflow-specific guidance for gateway exploration, Perspective view debugging, Jython scripting, feature planning, and safe write operations.",
+      "category": "development",
+      "tags": ["ignition", "scada", "caldera", "mcp", "perspective"]
+    }
+  ]
+}
