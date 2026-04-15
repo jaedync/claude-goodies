@@ -6,16 +6,16 @@
   "description": "Connect Claude to your Ignition SCADA gateway via the Caldera MCP server. Provides 71+ tools for Perspective views, scripts, tags, named queries, screenshots, and gateway management.",
   "long_description": "Caldera MCP provides Claude with tools for managing Inductive Automation's Ignition platform, including Perspective view CRUD, Jython script execution, tag browsing, named query execution, view screenshots, project snapshots, and gateway backups. Requires the Caldera MCP server running on your Ignition gateway.",
   "author": {
-    "name": "Jaeden Colaiacovo",
+    "name": "Jaedyn Chilton",
     "url": "https://github.com/jaedync"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaedync/caldera-mcp"
+    "url": "https://github.com/jaedync/claude-goodies"
   },
-  "homepage": "https://github.com/jaedync/caldera-mcp",
-  "documentation": "https://github.com/jaedync/caldera-mcp",
-  "support": "https://github.com/jaedync/caldera-mcp/issues",
+  "homepage": "https://github.com/jaedync/claude-goodies",
+  "documentation": "https://github.com/jaedync/claude-goodies/tree/main/plugins/caldera-mcp",
+  "support": "https://github.com/jaedync/claude-goodies/issues",
   "server": {
     "type": "node",
     "entry_point": "node_modules/mcp-remote/dist/proxy.js",
