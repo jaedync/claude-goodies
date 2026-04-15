@@ -1,6 +1,6 @@
 # claude-goodies
 
-Jaedyn's personal [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin marketplace — a grab-bag of skills and tools I've built and want to sync across my own machines. Public because there's no reason not to be.
+Jaedyn's personal [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin marketplace. A grab-bag of skills and tools I've built and want to sync across my own machines. Public because there's no reason not to be.
 
 ## Install
 
@@ -24,7 +24,7 @@ Then install whichever plugins you want:
 
 ## Also in this repo
 
-- [`desktop-extension/`](./desktop-extension) — Claude Desktop (`.mcpb`) build of the Caldera MCP tools for folks who don't use Claude Code. Releases are published as a `.mcpb` bundle.
+- [`desktop-extension/`](./desktop-extension): Claude Desktop (`.mcpb`) build of the Caldera MCP tools for folks who don't use Claude Code. Releases are published as a `.mcpb` bundle.
 
 ## License
 

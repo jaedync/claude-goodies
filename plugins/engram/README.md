@@ -1,13 +1,13 @@
 # engram
 
-A Claude Code skill that turns an Obsidian vault into a long-term knowledge graph — brain-first memory that compounds over time, with source archival and automated maintenance.
+A Claude Code skill that turns an Obsidian vault into a long-term knowledge graph. Brain-first memory that compounds over time, with source archival and automated maintenance.
 
 ## What it does
 
-- **Brain-first memory** — Claude's built-in memory handles quick recall; the Obsidian vault holds the knowledge graph: projects, decisions, patterns, people, sources, and the connections between them.
-- **Source archival** — Save articles, tweets, videos, PDFs, and posts as permanent notes with raw content preserved alongside clean markdown.
-- **Compounding knowledge** — Every session adds context. Backlinks, tags, and templates keep the graph navigable as it grows.
-- **Automated maintenance** — Passive lint catches structural issues; file-back keeps notes on disk in sync with vault state.
+- **Brain-first memory**: Claude's built-in memory handles quick recall; the Obsidian vault holds the knowledge graph: projects, decisions, patterns, people, sources, and the connections between them.
+- **Source archival**: save articles, tweets, videos, PDFs, and posts as permanent notes with raw content preserved alongside clean markdown.
+- **Compounding knowledge**: every session adds context. Backlinks, tags, and templates keep the graph navigable as it grows.
+- **Automated maintenance**: passive lint catches structural issues; file-back keeps notes on disk in sync with vault state.
 
 ## Setup
 
@@ -45,7 +45,7 @@ brew install defuddle yt-dlp pandoc poppler jq
 
 ```
 ~/engram/
-├── _Index.md              # Map of Content — entry point
+├── _Index.md              # Map of Content, entry point
 ├── People/                # Who you work with
 ├── Projects/              # Active and past work
 ├── Decisions/             # Why X was chosen over Y
@@ -90,4 +90,4 @@ brew install defuddle yt-dlp pandoc poppler jq
 
 ## Credits
 
-Inspired by Andrej Karpathy's [notes on a personal LLM knowledge base](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — a three-layer raw → wiki → schema pattern for compounding knowledge. Engram adapts that approach on top of Obsidian so the graph syncs across devices and stays browsable outside of Claude.
+Inspired by Andrej Karpathy's [notes on a personal LLM knowledge base](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): a three-layer raw, wiki, schema pattern for compounding knowledge. Engram adapts that approach on top of Obsidian so the graph syncs across devices and stays browsable outside of Claude.
