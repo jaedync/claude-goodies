@@ -87,3 +87,7 @@ brew install defuddle yt-dlp pandoc poppler jq
 - Obsidian CLI (`obsidian` command available in terminal)
 - Claude Code with the `obsidian:obsidian-cli` skill installed
 - `defuddle`, `yt-dlp`, `pandoc`, `pdftotext`, `jq` (see Setup)
+
+## Credits
+
+Inspired by Andrej Karpathy's [notes on a personal LLM knowledge base](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — a three-layer raw → wiki → schema pattern for compounding knowledge. Engram adapts that approach on top of Obsidian so the graph syncs across devices and stays browsable outside of Claude.
