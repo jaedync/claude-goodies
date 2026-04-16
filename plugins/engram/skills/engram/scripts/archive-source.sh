@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# archive-source.sh — Main URL dispatcher for engram Sources ingestion.
+# archive-source.sh: Main URL dispatcher for engram Sources ingestion.
 #
 # Takes a URL or local file path, detects the source type, routes to the
 # appropriate download/conversion tool, and saves a markdown note (with YAML
@@ -488,7 +488,7 @@ handle_local_file() {
   body="$(cat <<LOCAL
 # ${stem}
 
-**Source:** local file — ${input}
+**Source:** local file, ${input}
 
 ---
 

@@ -44,7 +44,7 @@ def fetch_tweet(author, status_id):
         print(f"Error: HTTP {exc.code} fetching {url}", file=sys.stderr)
         return None
     except urllib.error.URLError as exc:
-        print(f"Error: could not reach {url} — {exc.reason}", file=sys.stderr)
+        print(f"Error: could not reach {url}, {exc.reason}", file=sys.stderr)
         return None
     except json.JSONDecodeError:
         print(f"Error: invalid JSON from {url}", file=sys.stderr)
@@ -241,7 +241,7 @@ def main():
 
     print(f"Found {len(tweets)} tweets in thread.", file=sys.stderr)
 
-    # Warn if the input tweet appears to be the thread root — the backward
+    # Warn if the input tweet appears to be the thread root, the backward
     # walk can't discover tweets *after* the input, so threads started from
     # the first tweet will only capture that one tweet.
     root_id = tweets[0].get("id") or tweets[0].get("id_str") or ""

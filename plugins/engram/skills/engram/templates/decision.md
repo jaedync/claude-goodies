@@ -19,7 +19,7 @@ status: accepted
 <!-- What was chosen and why -->
 
 ## Consequences
-<!-- What this means going forward — tradeoffs accepted -->
+<!-- What this means going forward, tradeoffs accepted -->
 
 ## Sources
 <!-- Links to source notes that informed this decision -->

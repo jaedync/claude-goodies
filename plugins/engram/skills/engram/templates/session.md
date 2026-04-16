@@ -4,9 +4,9 @@ tags: [session]
 date: {{date}}
 ---
 
-# Session — {{date}}
+# Session: {{date}}
 
-### HH:MM — Topic
+### HH:MM: Topic
 - What was done
 - Created: [[Note]]
 - Updated: [[Note]]

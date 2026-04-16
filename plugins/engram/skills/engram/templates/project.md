@@ -11,7 +11,7 @@ started: {{date}}
 <!-- One-paragraph description of what this project is -->
 
 ## Why
-<!-- Motivation — what problem does it solve, who asked for it -->
+<!-- Motivation, what problem does it solve, who asked for it -->
 
 ## Key Decisions
 <!-- Link to decision notes -->

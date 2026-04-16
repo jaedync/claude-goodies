@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# lint-brain.sh — Obsidian vault health scanner for engram
+# lint-brain.sh: Obsidian vault health scanner for engram
 #
 # Scans the vault for broken wikilinks, orphan notes, stale notes,
 # and unfilled template placeholders. Designed to be run by Claude
@@ -33,9 +33,9 @@ TMPDIR_LINT=$(mktemp -d)
 trap 'rm -rf "$TMPDIR_LINT"' EXIT
 
 # Index files: one line per entry
-# names.idx  — "lowercased_basename<TAB>relative_path"
-# aliases.idx — "lowercased_alias<TAB>relative_path"
-# paths.idx  — one relative path per line
+# names.idx: "lowercased_basename<TAB>relative_path"
+# aliases.idx: "lowercased_alias<TAB>relative_path"
+# paths.idx: one relative path per line
 NAMES_IDX="$TMPDIR_LINT/names.idx"
 ALIASES_IDX="$TMPDIR_LINT/aliases.idx"
 PATHS_IDX="$TMPDIR_LINT/paths.idx"
