@@ -31,7 +31,7 @@ Open Obsidian → "Open folder as vault" → select `~/engram/`
 
 ### 4. Install dependencies
 
-The `obsidian:obsidian-cli` skill for vault operations.
+The [`obsidian:obsidian-cli`](https://github.com/kepano/obsidian-skills) skill (from [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)) for vault operations.
 
 Archive script dependencies (all via Homebrew):
 
@@ -85,7 +85,7 @@ brew install defuddle yt-dlp pandoc poppler jq
 
 - [Obsidian](https://obsidian.md) running with vault open
 - Obsidian CLI (`obsidian` command available in terminal)
-- Claude Code with the `obsidian:obsidian-cli` skill installed
+- Claude Code with the [`obsidian:obsidian-cli`](https://github.com/kepano/obsidian-skills) skill installed (from [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills))
 - `defuddle`, `yt-dlp`, `pandoc`, `pdftotext`, `jq` (see Setup)
 
 ## Credits
